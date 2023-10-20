@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hi Kids - Inicio</title> <!-- TITULO QUE APARECERÁ EN LA PESTAÑA DE LA PAGINA -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+
+  <body style="background-color: #e3f2fd;"> <!-- COLOR DE FONDO DE LA PAGINA PRINCIPAL -->
+
+    <!-- INICIO DE LA BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg bg-white"> <!-- DECLARACIÓN DE LA BARRA DE NAVEGACIÓN -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/Logo.png" alt="logo" width="220" class="d-inline-block align-text-top"> <!-- IMAGEN DEL LOGO EN LA BARRA DE NAVEGACIÓN -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+            <a class="btn btn-outline-info btn-lg m-2" href="hogar.html" role="button">Hogar</a> <!-- BOTON CON LINK PARA LA PAGINA DE HOGAR -->
+            <a class="btn btn-outline-info btn-lg m-2" href="terapia.html" role="button">Terapia</a> <!-- BOTON CON LINK PARA LA PAGINA DE TERAPIA -->
+            <a class="btn btn-outline-info btn-lg m-2" href="emociones.html" role="button">Emociones</a> <!-- BOTON CON LINK PARA LA PAGINA DE EMOCIONES -->
+        </div>
+      </div>
+    </nav>
+    <div class="col-12">
+      <div class="text-bg-dark p-2"></div> 
+    </div>
+    <!-- FINAL DE LA BARRA DE NAVEGACIÓN -->
+
+    <div class="container">
+      <h3 class="text-center mt-2">Números</h3>
+      <div class="row mt-4 justify-content-center"> <!-- INICIO DEL PRIMER RENGLON -->
+
+        <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="nCero()" style="cursor: pointer;"><img src="img/Numeros/1.png" class="card-img-top" alt="..."><audio id="cero"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+              <h5 class="mb-3">Cero</h5> <!-- NOMBRE DEL NUMERO -->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="nUno()" style="cursor: pointer;"><img src="img/Numeros/3.png" class="card-img-top" alt="..."><audio id="uno"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+              <h5 class="mb-3">Uno</h5> <!-- NOMBRE DEL NUMERO -->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="nDos()" style="cursor: pointer;"><img src="img/Numeros/5.png" class="card-img-top" alt="..."><audio id="dos"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+              <h5 class="mb-3">Dos</h5> <!-- NOMBRE DEL NUMERO -->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="nTres()" style="cursor: pointer;"><img src="img/Numeros/7.png" class="card-img-top" alt="..."><audio id="tres"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+              <h5 class="mb-3">Tres</h5> <!-- NOMBRE DEL NUMERO -->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="nCuatro()" style="cursor: pointer;"><img src="img/Numeros/9.png" class="card-img-top" alt="..."><audio id="cuatro"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+              <h5 class="mb-3">Cuatro</h5> <!-- NOMBRE DEL NUMERO -->
+          </div>
+        </div>
+        <!-- FINAL DEL PRIMER RENGLON -->
+        <!-- ------------------------ -->
+
+        <div class="row mt-4 justify-content-center"> <!-- INICIO DEL SEGUNDO RENGLON -->
+
+          <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+            <div class="card text-center">
+              <a onclick="nCinco()" style="cursor: pointer;"><img src="img/Numeros/11.png" class="card-img-top" alt="..."><audio id="cinco"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+                <h5 class="mb-3">Cinco</h5> <!-- NOMBRE DEL NUMERO -->
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+            <div class="card text-center">
+              <a onclick="nSeis()" style="cursor: pointer;"><img src="img/Numeros/13.png" class="card-img-top" alt="..."><audio id="seis"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+                <h5 class="mb-3">Seis</h5> <!-- NOMBRE DEL NUMERO -->
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+            <div class="card text-center">
+              <a onclick="nSiete()" style="cursor: pointer;"><img src="img/Numeros/15.png" class="card-img-top" alt="..."><audio id="siete"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+                <h5 class="mb-3">Siete</h5> <!-- NOMBRE DEL NUMERO -->
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+            <div class="card text-center">
+              <a onclick="nOcho()" style="cursor: pointer;"><img src="img/Numeros/17.png" class="card-img-top" alt="..."><audio id="ocho"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+                <h5 class="mb-3">Ocho</h5> <!-- NOMBRE DEL NUMERO -->
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+            <div class="card text-center">
+              <a onclick="nNueve()" style="cursor: pointer;"><img src="img/Numeros/19.png" class="card-img-top" alt="..."><audio id="nueve"></audio></a><br> <!-- IMAGEN DEL COLOR CON ETIQUETA DE AUDIO PARA ESTABLECER UN IDENTIFICADOR UNICO, AL HACER CLICK EN LA IMAGEN LLAMA A LA FUNCIÓN DEL AUDIO REQUERIDO -->
+                <h5 class="mb-3">Nueve</h5> <!-- NOMBRE DEL NUMERO -->
+            </div>
+          </div>
+        </div>
+        <!-- FIN DEL SEGUNDO RENGLON -->
+      </div>
+    </div>
+    <footer>
+      <br><br><br>
+    </footer>
+  </body>
+
+    <!-- LINKS PARA LA UTILIZACIÓN DE BOOTSTRAP Y ARCHIVOS DE JAVASCRIPT -->
+    <script src="audios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</html>

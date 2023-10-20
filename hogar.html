@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hi Kids - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+
+  <body style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/Logo.png" alt="logo" width="220" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+            <a class="btn btn-outline-info btn-lg m-2" href="hogar.html" role="button">Hogar</a>
+            <a class="btn btn-outline-info btn-lg m-2" href="terapia.html" role="button">Terapia</a>
+            <a class="btn btn-outline-info btn-lg m-2" href="emociones.html" role="button">Emociones</a> <!-- BOTON CON LINK PARA LA PAGINA DE EMOCIONES -->
+        </div>
+      </div>
+    </nav>
+    <div class="col-12">
+      <div class="text-bg-dark p-2"></div>
+    </div>
+
+    <div class="container">
+      <h2 class="text-center mt-3">Hogar</h2>
+      <div class="row mt-4 justify-content-center">
+        <!-- COCINA-->
+        <div class="col-lg-4 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="hCocina()" style="cursor: pointer;"><img src="img/HOGAR/1.png" class="card-img-top" alt="..."><audio id="cocina"></audio></a> <!-- IMAGEN DE LA TARJETA DE TERAPIA -->
+            <div class="card-body">
+              <a class="card-title" href="h_cocina.html" role="button" style="cursor: pointer; text-decoration: none; color: black;"> 
+                <h5>Cocina</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SALA-->
+        <div class="col-lg-4 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="hSala()" style="cursor: pointer;"><img src="img/HOGAR/3.png" class="card-img-top" alt="..."><audio id="sala"></audio></a> <!-- IMAGEN DE LA TARJETA DE TERAPIA -->
+            <div class="card-body">
+              <a class="card-title" href="h_sala.html" role="button" style="cursor: pointer; text-decoration: none; color: black;"> 
+                <h5>Sala</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- DORMITORIO-->
+        <div class="col-lg-4 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="hDormitorio()" style="cursor: pointer;"><img src="img/HOGAR/4.png" class="card-img-top" alt="..."><audio id="dormitorio"></audio></a> <!-- IMAGEN DE LA TARJETA DE TERAPIA -->
+            <div class="card-body">
+              <a class="card-title" href="h_dormitorio.html" role="button" style="cursor: pointer; text-decoration: none; color: black;"> 
+                <h5>Dormitorio</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FINAL DEL PRIMER RENGLON -->
+
+      <div class="row mt-4 justify-content-center">
+        <!-- BAÑO-->
+        <div class="col-lg-4 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="hBaño()" style="cursor: pointer;"><img src="img/HOGAR/5.png" class="card-img-top" alt="..."><audio id="baño"></audio></a> <!-- IMAGEN DE LA TARJETA DE TERAPIA -->
+            <div class="card-body">
+              <a class="card-title" href="h_baño.html" role="button" style="cursor: pointer; text-decoration: none; color: black;"> 
+                <h5>Baño</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- PATIO -->
+        <div class="col-lg-4 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="hPatio()" style="cursor: pointer;"><img src="img/HOGAR/2.png" class="card-img-top" alt="..."><audio id="patio"></audio></a> <!-- IMAGEN DE LA TARJETA DE TERAPIA -->
+            <div class="card-body">
+              <a class="card-title" href="h_patio.html" role="button" style="cursor: pointer; text-decoration: none; color: black;"> 
+                <h5>Patio</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-10 mt-4 "> <!-- JUSTIFICACIÓN DE COLUMNAS PARA EL TAMAÑO DE DISPOSITIVOS MOVILES -->
+          <div class="card text-center">
+            <a onclick="Que_quieres()" style="cursor: pointer;"><img src="img/HOGAR/Que_quieres.png" class="card-img-top" alt="..."><audio id="Que_qui"></audio></a> <!-- IMAGEN DE LA TARJETA DE TERAPIA -->
+            <div class="card-body">
+              <a class="card-title" href="que_hacer.html" role="button" style="cursor: pointer; text-decoration: none; color: black;"> 
+                <h5>¿Que quieres hacer?</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <br><br><br>
+    </footer>
+    
+    </body>
+    <script src="audios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</html>
